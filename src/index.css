@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel {
+  width: 250px;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  background: #f9f9f9;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.node {
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: grab;
+  background: #fff;
+  text-align: center;
+}
+
+.canvas {
+  flex: 1;
+  position: relative;
+}
+
+.custom-node {
+  padding: 10px;
+  border: 2px solid #0fa;
+  border-radius: 8px;
+  background: #e0fffa;
+  min-width: 150px;
+}
+
+.save-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 8px 16px;
+  font-weight: bold;
+  background-color: #2b6cb0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
